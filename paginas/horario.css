@@ -1,44 +1,41 @@
 body{
-    position: relative;
-    width: 428px;
-    height: 926px;
-
     background: #173637;
+    margin: 0;
+    padding: 0;
 }
 
 #retangulinho{
     position: absolute;
-    width: 428px;
-    height: 60px;
-    left: 0px;
-    top: 0px;
+    width: 97%;
+    height:74px;
     background: #D9D9D9;
     border-radius: 2px;
+    top: 0px;
 }
 
 #opcoes{
     position: absolute;
-    width: 53px;
-    height: 52px;
+    width: 3%;
+    height: 10%;
     left: 7px;
-    top: 4px;
+    top: 1px;
     background: #828181;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
 
 #sala{   
-    position: absolute;
-    width: 75px;
-    height: 34px;
+    position:relative;
+    width: 10%;
+    height: 40px;
     left: 15px;
-    top: 65px;
-    background: #828181;
+    top: 82px;
+    background: red;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
 
-#materia{
+materia{
     position: absolute;
     width: 149px;
     height: 34px;
@@ -49,7 +46,7 @@ body{
     border-radius: 10px;
 }
 
-#semana{
+semana{
     position: absolute;
     width: 149px;
     height: 34px;
@@ -61,12 +58,11 @@ body{
 }
 
 #quadradao{
-        position: absolute;
-    width: 362px;
-    height: 600px;
-    left: 34px;
+    margin-left: 10%;
+    position: absolute;
+    width: 80%;
+    height: 100%;
     top: 130px;
-    
     background: #D9D9D9;
     border-radius: 10px;
 }
