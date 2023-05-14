@@ -4,6 +4,19 @@ body{
     padding: 0;
 }
 
+@media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+}
+  
+  /* Estilos para telas maiores que 600px (ex: desktop) */
+@media (min-width: 600px) {
+    body {
+      font-size: 18px;
+    }
+}
+
 #retangulinho{
     position: absolute;
     width: 97%;
